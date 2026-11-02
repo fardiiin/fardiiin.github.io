@@ -23,20 +23,6 @@ fardiiin.github.io/
 
 Keep these filenames and the assets folder structure intact. Upload order does not matter. Do not upload the ZIP itself or nest this folder inside another repository folder: index.html must be at the publishing root.
 
-## Upload in order
-
-1. Save a backup of the existing repository before replacing files.
-2. Extract the ZIP on your computer and open the extracted fardiiin.github.io folder.
-3. Open the repository on GitHub and select the branch you intend to publish (usually main).
-4. Choose **Add file → Upload files**. Upload all files above and the entire assets folder to the repository root. Replace the existing index.html and any other matching files. Ensure the dotfile .nojekyll is included; if your file picker hides it, create an empty file named .nojekyll using GitHub's Add file → Create new file.
-5. Commit the uploaded files. This updates the website once GitHub Pages deploys them.
-6. Under **Settings → Pages**, choose **Deploy from a branch**, then select your uploaded branch and **/ (root)**. Save. If already configured this way, keep the existing setup.
-7. Set or retain **Custom domain: fardinmahin.me**. The included CNAME contains exactly that domain.
-8. Keep existing working GitHub Pages DNS records. If the domain is not already connected to GitHub Pages, use the domain setup below.
-9. Enable **Enforce HTTPS** when available. After deployment completes, visit https://fardinmahin.me/ and refresh the browser cache if the previous design remains visible.
-
-Existing unrelated files can stay, including PDFs linked elsewhere. Old CSS and images are no longer used by the new index.html. If the repository has a custom Pages deployment workflow, review it before switching to branch deployment; this package requires no build command.
-
 ## Editing and behavior
 
 - Edit index.html for text, links, experience, projects, and contact information.
