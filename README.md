@@ -1,7 +1,6 @@
 # Fardin Islam Mahin — Portfolio
 
-Ready-to-upload static website for https://fardinmahin.me/.
-Repository: https://github.com/fardiiin/fardiiin.github.io
+Ready-to-upload static website for Repository: https://github.com/fardiiin/fardiiin.github.io
 
 ## Files and placement
 
@@ -37,21 +36,6 @@ Keep these filenames and the assets folder structure intact. Upload order does n
 9. Enable **Enforce HTTPS** when available. After deployment completes, visit https://fardinmahin.me/ and refresh the browser cache if the previous design remains visible.
 
 Existing unrelated files can stay, including PDFs linked elsewhere. Old CSS and images are no longer used by the new index.html. If the repository has a custom Pages deployment workflow, review it before switching to branch deployment; this package requires no build command.
-
-## Domain setup (only if needed)
-
-Configure the custom domain in GitHub Pages first, then configure DNS at your domain provider. For the apex domain, use these A records:
-
-| Type | Name | Value |
-| --- | --- | --- |
-| A | @ | 185.199.108.153 |
-| A | @ | 185.199.109.153 |
-| A | @ | 185.199.110.153 |
-| A | @ | 185.199.111.153 |
-
-For www, use a CNAME record with name www and value fardiiin.github.io. Do not change email/MX records. DNS and HTTPS provisioning can take up to 24 hours.
-
-Official reference: https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site
 
 ## Editing and behavior
 
