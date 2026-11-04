@@ -1,10 +1,9 @@
 # Fardin Islam Mahin — Portfolio
 
-Ready-to-upload static website for Repository: https://github.com/fardiiin/fardiiin.github.io
+Static website for Repository: https://github.com/fardiiin/fardiiin.github.io
 
 ## Files and placement
 
-Upload the contents of this folder directly to the publishing branch's root:
 
 ```text
 fardiiin.github.io/
@@ -21,7 +20,7 @@ fardiiin.github.io/
 └── README.md          # These instructions
 ```
 
-Keep these filenames and the assets folder structure intact. Upload order does not matter. Do not upload the ZIP itself or nest this folder inside another repository folder: index.html must be at the publishing root.
+Keep these filenames and the assets folder structure intact. ```index.html``` must be at the publishing root.
 
 ## Editing and behavior
 
@@ -33,5 +32,3 @@ Keep these filenames and the assets folder structure intact. Upload order does n
 - Project links open the existing GitHub projects.
 - Fonts are loaded from Google Fonts (DM Sans and Space Grotesk), with local sans-serif fallbacks. Images are included locally.
 - No installation, build tools, API keys, Sites account, or server code is required.
-
-This export preserves the deployed website's HTML, CSS, JavaScript and images. Only the GitHub Pages configuration and this guide have been added. The repository's current branch and Pages configuration were not accessible for inspection; confirm them in Settings → Pages when uploading.
